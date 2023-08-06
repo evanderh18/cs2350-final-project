@@ -12,16 +12,107 @@
 
   <body>
     <!-- Your HTML goes here -->
-    <h1 class="display-2 text-center my-5 py-5">
-      <span class="d-block py-5">
-        <i class="bi bi-filetype-html text-primary"></i>
-        <i class="bi bi-filetype-css text-danger"></i>
-        <i class="bi bi-filetype-js text-success"></i>
-      </span>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">Evan's Travel Blog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+            <img src="https://images.unsplash.com/photo-1607550295261-851fa60d8ed2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="yellowstone">
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Yellowstone</h1>
+                <p>A thermal hotspot. See the beauty of natural hot springs and geysers.</p>
+                <p><a class="btn btn-lg btn-warning" href="#">See more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+            <img src="https://images.unsplash.com/photo-1545394734-b4140a8cfa9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="teton">
+    
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Grand Teton</h1>
+                <p>Explore a major mountain range next to Jackson Hole WY.</p>
+                <p><a class="btn btn-lg btn-warning" href="#">See more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+            <img src="https://images.unsplash.com/photo-1542773998-9325f0a098d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="yosemite">
+    
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Yosemite</h1>
+                <p>See the major cliffs in this amazing National Park in California.</p>
+                <p><a class="btn btn-lg btn-warning" href="#">See more</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="content">
+        <div class="row align-items-md-stretch">
+          <div class="col-md-6">
+            <div class="h-100 p-5 text-white bg-dark rounded-3">
+              <h2>Browse the Collection</h2>
+              <p>There are several beautiful places that are around us. This website highlights some of the various places I have gone to, expressing each's beauty through photos. Take the journey to one of the locations above.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+              <h2>Our Mission</h2>
+              <p>Ever since I was little, I always enjoyed the outdoors, whether that was just going to my local mountains here in Utah or taking a trip to one of the many local national parks. I believe that there is beauty everywhere. I want everyone to apricate the beauty of these locations as much as I do! - Evan V</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
-      Welcome to CS 2350!
-    </h1>
+    <footer>
+      All Rights Reserved &copy;
+    </footer>
 
     <script type="module" src="./javascripts/main.js"></script>
+ 
+  
   </body>
 </html>
