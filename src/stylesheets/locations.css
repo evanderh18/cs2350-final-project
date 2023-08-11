@@ -1,0 +1,38 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("bootstrap-icons/font/bootstrap-icons.css");
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.container h2 {
+    font-weight: 400;
+}
+
+.container .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.details {
+    margin-top: 20px;
+}
+
+.yellowstone_jumbo {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("https://images.unsplash.com/photo-1565030784130-0e0ef4b06b7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80");
+    color: black;
+    text-emphasis: bold;
+}

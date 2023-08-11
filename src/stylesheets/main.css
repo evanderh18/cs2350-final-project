@@ -2,6 +2,10 @@
 @import url("bootstrap/dist/css/bootstrap.min.css");
 @import url("bootstrap-icons/font/bootstrap-icons.css");
 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .carousel {
     margin-bottom: 2rem;
 }
@@ -28,6 +32,7 @@ footer {
     text-align: center;
     padding: 20px;
     color: white;
+    margin-top: auto;
 }
 
 .bd-placeholder-img {
@@ -48,3 +53,11 @@ footer {
     margin: 20px;
 }
   
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
